@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    margin-top:10px;
+}
+
+.featuredTitle{
+    font-size:20px;
+}
+
+.featuredMoneyContainer{
+   margin:10px 0px;
+   display:flex;
+   align-items: center;
+}
+
+.featuredMoney{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.featuredMoneyRate{
+    margin-left: 20px;
+    display:flex;
+   align-items: center;
+}
+
+.featuredIcon{
+    color:green;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.featuredIcon.negative{
+    color:red;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.FeaturedSub{
+    font-size: 15px;
+    color:grey;
+}
+
+.HomePage, .usersPage{
+    color:inherit;
+}

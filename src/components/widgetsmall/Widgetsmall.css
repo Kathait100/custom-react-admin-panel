@@ -1,0 +1,58 @@
+.WidgetSmall{
+    flex:1;
+    box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.71);
+    -webkit-box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.71);
+    -moz-box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.71);
+    padding:15px;
+    margin-right: 20px;
+    height:300px;
+    overflow-y: scroll;
+}
+.widgetsmalllistItem:hover{
+    background-color: rgba(85, 85, 85, 0.062);
+}
+.widgetsmallTitle{
+    font-size:22px;
+    font-weight: 600;
+}
+.widget-profile-image{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetSmallList{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+.widgetsmalllistItem{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 0px;
+}
+.widgetSmalleruser{
+    display:flex;
+    flex-direction: column;
+}
+.widgetsmallerUsername{
+    font-weight: 600;
+}
+.widgetsmallerUserjob{
+    font-weight: 300;
+}
+.widgetsmallbtn{
+    display:flex;
+    align-items: center;
+    padding:7px 10px;
+    border:none;
+    border-radius: 10px;
+    background-color: #eeeef7;
+    color:#555;
+    cursor:pointer;
+}
+.widgetSmallicon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}

@@ -1,0 +1,133 @@
+.User{
+    flex:4;
+    padding:20px;
+}
+.HomePage, .usersPage{
+    text-decoration: none;
+}
+.userTitleContainer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userAddButton{
+    padding:5px;
+    width: 80px;
+    background-color: teal;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    border:none;
+    border-radius: 5px;
+}
+.userContainer{
+    margin-top: 20px;
+    display:flex;
+}
+.userShow{
+    box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.71);
+    -webkit-box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.71);
+    -moz-box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.71);    
+    flex:1;
+    padding:20px;
+}
+.userUpdate{
+    box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.71);
+    -webkit-box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.71);
+    -moz-box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.71);    
+    flex:2;
+    padding:20px;
+    margin-left:5px;
+}
+.userShowImage{
+    width:60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userShowtop{
+    display:flex;
+    align-items: center;
+}
+.userShowTopDetails{
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.userName{
+    font-weight:600;
+}
+.userJobTitle{
+    font-weight:100;
+}
+.userShowBottom{
+    margin-top: 20px;
+}
+.details{
+    display:flex;
+    align-items: center;
+    margin:20px 0px;
+    color:#444;
+}
+.userShowTite{
+    font-weight: 600;
+    font-size:14px;
+    color:lightgrey
+}
+
+.userInfoIcon{
+    font-size: 20px !important;
+}
+.userInfoTitle{
+    margin-left:5px;
+    font-weight:300;
+}
+.userUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.UpdateForm{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.userUpdateitems{
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+.userUpdateitems>label
+{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.userUpdatedInput{
+   width:200px;
+   height:30px;
+   border:none;
+   border-bottom: 1px solid black;
+   outline: 0;
+}
+.rightEditContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.uploadinnerContainer{
+    display:flex;
+    align-items: center;
+}
+.uploadIcon{
+    cursor:pointer;
+}
+.UpdateButton{
+    width:80px;
+    background-color: darkcyan;
+    cursor:pointer;
+    color:white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+}
